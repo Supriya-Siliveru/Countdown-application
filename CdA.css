@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bgimage.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.content h1{
+    margin:3vh 0 ;
+    font-size: 50px;
+}
+.content h1 span{
+    color: darkorange;
+}
+.content button{
+    margin-top: 8vh;
+    padding: 10px;
+    background: transparent;
+}
+.content button a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.countdown-timer{
+    display: flex;
+    color:rgb(92, 92, 164);
+}
+.countdown-timer div{
+    flex-basis: 80px;
+}
+.countdown-timer div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+
+}
+.countdown-timer div span{
+    padding-top: 7vh;
+}
